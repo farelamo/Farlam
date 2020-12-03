@@ -1,0 +1,141 @@
+<html>
+<head>
+   <title>MY BIOGRAPHY</title>
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<script type="text/javascript" src="js/jquery.js"></script>
+			<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+		 <script>
+       function runPopup(){
+            window.alert("Selamat Datang");
+       };
+			</script>
+			  <style>
+			.shadowbox {
+           border: 1px solid #333;
+           box-shadow: 8px 8px 5px #444;
+           padding: 8px 12px;
+					 background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+					 text-align 	: center;
+					 width 				: 100%;
+					 margin-bottom				: 100px;
+
+					 }
+
+			  body {
+				background-color 	: grey;
+				font-family				: Helvetica, Helvetica Neue,Arial Black;;
+				font-size					: 20px;
+				text-align				: left;
+				margin 						: 0;
+				padding						: 0;
+				}
+
+
+				aside {
+				padding 					: 2px;
+				width							: 27%;
+				background-color	: #d3beaa;
+				float 						: right;
+				text-align				: center;
+				box-sizing				: border-box;
+				border						: 4px solid darkblue;
+				border-radius			: 10px 10px 10px 10px;
+				display						: inline;
+       }
+
+			 .center {
+           margin: 0 auto;
+       }
+       .box {
+           width:70%;
+           border:4px solid darkblue;
+           padding:20px;
+           margin-bottom: 20px;
+				 	 border-radius: 10px 10px 10px 10px;
+					 background-color: #11C5C6;
+       }
+
+
+  ul {
+	margin 				: 0;
+	padding 			: 0;
+	list-style 			: none;
+}
+
+  ul li {
+	float 				: left;
+}
+
+ ul li a {
+	float 				: left;
+	color 				: #d4d4d4;
+	padding 			: 12px 20px;
+	text-decoration 	: none;
+	background 			: maroon;
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+ ul li a:hover {
+	color 				: white;
+	background 			: #3C4042;
+}
+
+   </style>
+<body>
+	<header class="shadowbox">
+  	 <h1>MY BIOGRAPHY<h1>
+   	<p>Selamat datang di website tentang diriku</p>
+	</header>
+	<nav>
+    	   <ul>
+      	     <li><a href="#">Beranda</a></li>
+        	   <li><a href="#">Galeri</a></li>
+          	 <li><a href="#">Kontak</a></li>
+       	</ul>
+   	</nav>
+	<main>
+						<aside>
+					<div class="aside">
+			 		<article>
+           <h2>Profil Diriku</h2>
+           <figure>
+               <img src="Gambar/fotoku.jpeg" class="gambarartikel" width=10%>
+           </figure>
+					 <h1>Dwi Basuki Rachmad</h1>
+					 <h1>Lahir tahun 1970</h1>
+					 <h1>Status : Menikah</h1>
+					</article>
+					</div>
+       </aside>
+           <article>
+					 <div class="p-3 mb-2 bg-primary text-white">
+               <h2>Olahraga Kesukaan</h2>
+               <img src="Gambar/jogging.jpg" alt="jogging" class="gambarartikel" width="10%">
+               <p>Jogging adalah aktivitas lari santai yang bermanfaat bagi kesehatan tubuh jika rutin dijalani.</p>
+               <p>Maka dari itu, saya setidaknya harus lari 2x dalam 1 minggu.</p>
+					 </div>
+					  </article>
+
+           <article class="box">
+               <h2>Makanan Kesukaan</h2>
+               <img src="Gambar/nasi goreng.jpg" alt="Nasi Goreng" class="gambarartikel" width="10%">
+               <p>Keunikan rasa dari Nasi Goreng yang menciptakan aroma khas membuat diri menjadi tergoda untuk menyantap makanan tersebut.</p>
+           </article>
+
+           <article class="box">
+               <h2>Pelajaran yang disukai</h2>
+							 <img src="Gambar/sains.jpg"alt="Sains dan Teknologi" class="gambarartikel">
+               <p> Sains & teknologi  adalah hal yang saya senangi selama mendalami ilmu di sekolah.</p>
+           </article>
+			 </main>
+			<script src="Javascript.js">
+				 window.alert("Selamat Datang");
+				 </script>
+	 <footer>
+  	<small>Copyright© Dwi Basuki Rachmad</small>
+	 </footer>
+</article>
+</body>
+</html>
